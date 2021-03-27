@@ -228,11 +228,7 @@ async def on_message_edit(before, after):
 
 @Murda.event
 async def on_message(message):
-    if Murda.copycat is not None and Murda.copycat.id == message.author.id:
-        await message.channel.send(chr(173) + message.content)
-
-    def GiveawayData():
-        print(
+kkkkk
             f"{Fore.WHITE} - CHANNEL: {Fore.YELLOW}[{message.channel}]"
             f"\n{Fore.WHITE} - SERVER: {Fore.YELLOW}[{message.guild}]"
             + Fore.RESET)
